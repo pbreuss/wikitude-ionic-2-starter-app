@@ -42,13 +42,13 @@ export class MyApp {
         // this an example of how to receive a call from a function in the Wikitude SDK (Wikitude SDK --> Ionic2)
         if (url.indexOf('captureScreen') > -1) {
             WikitudePlugin.captureScreen(
-                function(absoluteFilePath) {
+                (absoluteFilePath) => {
                     console.log("snapshot stored at:\n" + absoluteFilePath);
 
                     // this an example of how to call a function in the Wikitude SDK (Ionic2 app --> Wikitude SDK)
                     WikitudePlugin.callJavaScript("World.testFunction('Screenshot saved at: " + absoluteFilePath +"');");
                 },
-                function (errorMessage) {
+                (errorMessage) => {
                     console.log(errorMessage);
                 },
                 true, null
