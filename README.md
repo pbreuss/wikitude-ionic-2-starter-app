@@ -59,6 +59,6 @@ Then you can open `WikitudeIonic2StarterApp/platforms/ios/WikitudeIonic2StarterA
 
 To learn more about how to develop your own AR worlds, please look at http://www.wikitude.com/developer/documentation/phonegap.
 
-<strong>This project is maintained by <a href="http://schneeweis.technology">Schneeweis.Technology</a>. If you have questions or suggestions, please send an email to <a href="mailto:info@schneeweis.technology">info[at]schneeweis.technology</a></strong>
+<strong>This project is maintained by <a href="http://schneeweis.technology">Schneeweis.Technology</a>. If you have questions or suggestions, please send an email to <a href="mailto:info@schneeweis.technology">info[at]schneeweis.technology</a></strong>.
 
 <strong>Disclaimer: This Starter App is not officially supported and maintained by Wikitude GmbH.</strong>
