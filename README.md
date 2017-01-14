@@ -4,8 +4,8 @@ For the IR world, please use target 3 of <a href="http://www.wikitude.com/extern
 Additionally this Starter app shows you how to communicate between the ionic 2 pages and the Wikitude SDK: There is a "Snapshot" link on the AR view. When you click it, a message is sent to a callback defined in <strong>app.components.ts</strong>, this function then creates a snapshot of the screen and saves it on the phone. Look for "<strong>captureScreen</strong>" within the sources. After the image has been saved locally, a Javascript function within the Wikitude SDK is called from Ionic using <strong>WikitudePlugin.callJavaScript(...)</strong>, as an example of how you can send massages the other way round, from Ionic to the Wikitude SDK.<p>  
 
 ## Version Information
-1.0 Initial creation for Ionic RC.0<br>
-1.1 Upgrade to Ionic RC.1; added an IR sample world<br> 
+1.0 Initial creation for Ionic 2 RC.0<br>
+1.1 Upgrade to Ionic 2 RC.1; added an IR sample world<br> 
 
 ## How to use this template
 
