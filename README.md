@@ -5,7 +5,7 @@ Additionally this Starter app shows you how to communicate between the ionic 2 p
 
 ## Version Information
 1.0 Initial creation for Ionic 2 RC.0<br>
-1.1 Upgrade to Ionic 2 RC.1; added an IR sample world<br> 
+1.1 Upgrade to Ionic 2 RC.4; added an IR sample world<br> 
 
 ## How to use this template
 
