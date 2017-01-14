@@ -61,4 +61,4 @@ To learn more about how to develop your own AR worlds, please look at http://www
 
 <strong>This project is maintained by <a href="http://schneeweis.technology">Schneeweis.Technology</a>. If you have questions or suggestions, please send an email to <a href="mailto:info@schneeweis.technology">info[at]schneeweis.technology</a></strong>.
 
-<strong>Disclaimer: This Starter App is not officially supported and maintained by Wikitude GmbH.</strong>
+<strong>Disclaimer: This Starter App is not officially supported and maintained by <a href="http://www.wikitude.com">Wikitude GmbH</a>.</strong>
