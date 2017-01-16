@@ -6,7 +6,7 @@ Additionally this Starter app shows you how to communicate between the ionic 2 p
 ## Version Information
 1.0 Initial creation for Ionic 2 RC.0 - Oct 6, 2016<br>
 1.1 Upgrade to Ionic 2 RC.4; added an IR sample world - Jan 12, 2017<br> 
-1.2 Upgrade to Ionic 2 RC.5; added an IR sample world - Jan 16, 2017<br> 
+1.2 Upgrade to Ionic 2 RC.5 - Jan 16, 2017<br> 
 
 ## How to use this template
 
