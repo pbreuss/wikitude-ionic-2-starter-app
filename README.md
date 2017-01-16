@@ -1,11 +1,12 @@
 # wikitude-ionic-2-starter-app
-This starter app is the fastest way to get you started with your own <strong>Augmented Reality</strong> projects and benefit from the powerful framework <strong>Ionic 2</strong>. It uses the latest version of the <strong>Phonegap/Cordova Wikitude Plugin (5.3)</strong> and is based on the latest version of <strong>Ionic 2 (2.0.0-rc.4)</strong>. It contains two sample AR Worlds (1 Geo World, and one Image Recognition World) from the Wikitude sample projects (a 3D model of the Earth floating on a relative location). <p>You can easily replace this sample with other samples from the Wikitude SDK Examples directory, by replacing the content of the directory <strong>src/assets</strong> with another sample app.<p>
+This starter app is the fastest way to get you started with your own <strong>Augmented Reality</strong> projects and benefit from the powerful framework <strong>Ionic 2</strong>. It uses the latest version of the <strong>Phonegap/Cordova Wikitude Plugin (5.3)</strong> and is based on the latest version of <strong>Ionic 2 (2.0.0-rc.5)</strong>. It contains two sample AR Worlds (1 Geo World, and one Image Recognition World) from the Wikitude sample projects (a 3D model of the Earth floating on a relative location). <p>You can easily replace this sample with other samples from the Wikitude SDK Examples directory, by replacing the content of the directory <strong>src/assets</strong> with another sample app.<p>
 For the IR world, please use target 3 of <a href="http://www.wikitude.com/external/doc/documentation/5.0/android/images/target_images_examples.pdf">Wikitude Target Examples</a>.<p>
 Additionally this Starter app shows you how to communicate between the ionic 2 pages and the Wikitude SDK: There is a "Snapshot" link on the AR view. When you click it, a message is sent to a callback defined in <strong>app.components.ts</strong>, this function then creates a snapshot of the screen and saves it on the phone. Look for "<strong>captureScreen</strong>" within the sources. After the image has been saved locally, a Javascript function within the Wikitude SDK is called from Ionic using <strong>WikitudePlugin.callJavaScript(...)</strong>, as an example of how you can send massages the other way round, from Ionic to the Wikitude SDK.<p>  
 
 ## Version Information
-1.0 Initial creation for Ionic 2 RC.0<br>
-1.1 Upgrade to Ionic 2 RC.4; added an IR sample world<br> 
+1.0 Initial creation for Ionic 2 RC.0 - Oct 6, 2016<br>
+1.1 Upgrade to Ionic 2 RC.4; added an IR sample world - Jan 12, 2017<br> 
+1.2 Upgrade to Ionic 2 RC.5; added an IR sample world - Jan 16, 2017<br> 
 
 ## How to use this template
 
