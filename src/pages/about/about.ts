@@ -7,10 +7,8 @@ import { NavController } from 'ionic-angular';
 })
 export class AboutPage {
 
-  public wikitudeData: string;
-
   constructor(public navCtrl: NavController) {
-    
+
   }
 
 }

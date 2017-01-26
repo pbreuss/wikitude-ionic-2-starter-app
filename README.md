@@ -1,5 +1,6 @@
 # wikitude-ionic-2-starter-app
-This starter app is the fastest way to get you started with your own <strong>Augmented Reality</strong> projects and benefit from the powerful framework <strong>Ionic 2</strong>. It uses the latest version of the <strong>Phonegap/Cordova Wikitude Plugin (5.3)</strong> and is based on the latest version of <strong>Ionic 2 (2.0.0-rc.5)</strong>. It contains two sample AR Worlds (1 Geo World, and one Image Recognition World) from the Wikitude sample projects (a 3D model of the Earth floating on a relative location). <p>You can easily replace this sample with other samples from the Wikitude SDK Examples directory, by replacing the content of the directory <strong>src/assets</strong> with another sample app.<p>
+This starter app is the fastest way to get you started with your own <strong>Augmented Reality</strong> projects and benefit from the powerful framework <strong>Ionic 2</strong>. It uses the latest and greatest version of the <strong>Phonegap/Cordova Wikitude Plugin (6.0)</strong> and is based on the latest version of <strong>Ionic 2 (2.0.1-final)</strong>. It contains two sample AR Worlds (1 Geo World - default, and one Image Recognition World) from the Wikitude sample projects (a 3D model of the Earth floating on a relative location). <p>You can easily replace this sample with other samples from the Wikitude SDK Examples directory, by replacing the content of the directory <strong>src/assets</strong> with another sample app.<p>
+You can switch between the sample geo world and the sample IR world in the file <strong>src/pages/ar-view/ar-view.ts</strong> and comment in the lines marked with (1) for the IR sample world, or (2) for the sample GEO world - don't forget to comment out the other sample world (IR or GEO), as you can't have a GEO world and a IR world at the same time.<p>
 For the IR world, please use target 3 of <a href="http://www.wikitude.com/external/doc/documentation/5.0/android/images/target_images_examples.pdf">Wikitude Target Examples</a>.<p>
 Additionally this Starter app shows you how to communicate between the ionic 2 pages and the Wikitude SDK: There is a "Snapshot" link on the AR view. When you click it, a message is sent to a callback defined in <strong>app.components.ts</strong>, this function then creates a snapshot of the screen and saves it on the phone. Look for "<strong>captureScreen</strong>" within the sources. After the image has been saved locally, a Javascript function within the Wikitude SDK is called from Ionic using <strong>WikitudePlugin.callJavaScript(...)</strong>, as an example of how you can send massages the other way round, from Ionic to the Wikitude SDK.<p>  
 
@@ -7,6 +8,7 @@ Additionally this Starter app shows you how to communicate between the ionic 2 p
 1.0 Initial creation for Ionic 2 RC.0 - Oct 6, 2016<br>
 1.1 Upgrade to Ionic 2 RC.4; added an IR sample world - Jan 12, 2017<br> 
 1.2 Upgrade to Ionic 2 RC.5 - Jan 16, 2017<br> 
+1.3 Upgrade to Ionic 2 (2.0.1-final) and Wikitude 6.0 - Jan 26, 2017<br> 
 
 ## How to use this template
 
