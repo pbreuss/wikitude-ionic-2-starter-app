@@ -1,7 +1,8 @@
 /// <reference path="WikitudePlugin.d.ts" />
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
-import { StatusBar } from 'ionic-native';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -12,11 +13,11 @@ import { TabsPage } from '../pages/tabs/tabs';
 export class MyApp {
   rootPage = TabsPage;
 
-  constructor(platform: Platform) {
+  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
-      StatusBar.styleDefault();
+      statusBar.styleDefault();
 
       /** Enter your Wikitude (trial) License Key here */
       WikitudePlugin._sdkKey = "FI3fezoHEdyX5k5ysYtUjz2kQth9BuVwBAy4rryPghCk0E2G2EVfk9VCsqyKPnOJEc7JdsdzupDgpASGoCRGognFZXAH5Eb9o+2dSaAVystG45f1wYEC1BpQqryh13tglFwvPlVB+I2xzBGzBbG2y7pSzeeNsvVP82Jm0RcYOsBTYWx0ZWRfXxkGr6IyYKG9yxrXvzOHd8iTQZbn/+tbvPY079zDUL+86ur3728mlvV3wAFF3zVjBPRzf/bWjc4wZBCNtST0HDOfeGdTr/kO+R1Met9Z5LO1txCSdRQS09+3vKnFEY50pdDgEpeeZB5ujQy21eVUnfc5lNGbsEAx5YUzTWidxy4y835FNxwiSW9QrBPJ/U1aEKexHQ3KH0D1aM03kK8hPTRWG1auTfkSaAjApzx2T51/kW4n98EDQzts8cxmzyvqK91UBFVn+ILWYyl6D57bxLcadN7XL3BNJfsZG74CcVecU/ySljRXiyqAreF//8ckL29gSz25WDI4RSuP2SshM4q9njmdB9wWYpd2XC4a9hImfz55L2j/Gw4T7VrXQg2Zb+wErhsjHcWE5WbQuPTFUiHzlNhd6QLIJtgDmMR9VOoNrB0sWOe5h4M001drXrIPG+/CDiF2HbTV5DDqszy+/FN2fiAW7Iskjf/OJSK167mBU0MYUbTFuOipTNas2MYbX31MmReuvbJ4";

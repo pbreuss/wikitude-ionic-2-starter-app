@@ -9,6 +9,7 @@ Additionally this Starter app shows you how to communicate between the ionic 2 p
 1.1 Upgrade to Ionic 2 RC.4; added an IR sample world - Jan 12, 2017<br> 
 1.2 Upgrade to Ionic 2 RC.5 - Jan 16, 2017<br> 
 1.3 Upgrade to Ionic 2 (2.0.1-final) and Wikitude 6.0 - Jan 26, 2017<br> 
+1.4 Upgraded to Ionic 2 (2.3.0) - March 25, 2017
 
 ## How to use this template
 
@@ -43,7 +44,9 @@ $ ionic plugin add https://github.com/Wikitude/wikitude-cordova-plugin.git
 
 7) Obtain a (free) license key from Wikitude: Go to http://www.wikitude.com/developer/licenses, register, and download a key for the Wikitude SDK. Then copy the key to the file `src/app/app.component.ts`
 
-8) Please remember that you can't test this plugin on a browser or emulator. You need an Android or iOS device. To test on Android, type:
+8) For iOS, open xcode, under Resources/WikitudeIonic2StarterApp-Info.plist add "NSCameraUsageDescription" and a description like "This app needs the camera for Augmented Reality.". Furthermore, add "NSLocationWhenInUseUsageDescription", and a text like "This app needs your location for Geo AR"
+
+9) Please remember that you can't test this plugin on a browser or emulator. You need an Android or iOS device. To test on Android, type:
 
 ```bash
 $ ionic build android
