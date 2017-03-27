@@ -44,7 +44,11 @@ $ ionic plugin add https://github.com/Wikitude/wikitude-cordova-plugin.git
 
 7) Obtain a (free) license key from Wikitude: Go to http://www.wikitude.com/developer/licenses, register, and download a key for the Wikitude SDK. Then copy the key to the file `src/app/app.component.ts`
 
-8) For iOS, open xcode, under Resources/WikitudeIonic2StarterApp-Info.plist add "NSCameraUsageDescription" and a description like "This app needs the camera for Augmented Reality.". Furthermore, add "NSLocationWhenInUseUsageDescription", and a text like "This app needs your location for Geo AR"
+8) For iOS, open xcode, under Resources/WikitudeIonic2StarterApp-Info.plist add the following values:
+
+NSCameraUsageDescription and in the value field enter something like like "This app needs the camera for Augmented Reality."<br>
+NSLocationWhenInUseUsageDescription, and a value like "This app needs your location for Geo AR"<br>
+NSPhotoLibraryUsageDescription, and a value like "This app needs to access your photo gallery such that you can share your screenshots"<br><br>
 
 9) Please remember that you can't test this plugin on a browser or emulator. You need an Android or iOS device. To test on Android, type:
 
