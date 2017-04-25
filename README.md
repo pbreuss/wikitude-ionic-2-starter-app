@@ -9,7 +9,7 @@ Additionally this Starter app shows you how to communicate between the ionic 2 p
 1.1 Upgrade to Ionic 2 RC.4; added an IR sample world - Jan 12, 2017<br> 
 1.2 Upgrade to Ionic 2 RC.5 - Jan 16, 2017<br> 
 1.3 Upgrade to Ionic 2 (2.0.1-final) and Wikitude 6.0 - Jan 26, 2017<br> 
-1.4 Upgraded to Ionic 2 (2.3.0) - March 25, 2017
+1.4 Upgraded to Ionic 2 (2.3.0) - March 25, 2017<br> 
 1.5 Upgraded to Ionic 3 (3.0.1) - April 25, 2017
 
 ## How to use this template
